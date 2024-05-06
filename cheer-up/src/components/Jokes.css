@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .back-icon {
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .joke-container {
+    margin-top: 10px;
+  }
+  
+  .joke {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .punchline-button, .new-joke-button, .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem; /* Igualamos el tamaño de fuente del botón al de los otros elementos */
+    margin: 10px 0; /* Igualamos el margen del botón al de los otros elementos */
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-joke-button {
+    background-color: #008CBA;
+  }
+  
+  .punchline-button:hover, .new-joke-button:hover, .button:hover {
+    background-color: #45a049;
+  }
+  
