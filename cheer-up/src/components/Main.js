@@ -6,10 +6,10 @@ const MainPage = () => {
   return (
     <div className="container">
       <div className="title-container">
-        <h1 className="main-title">¡Suerte en tus exámenes y prácticas!</h1>
+        <h1 className="main-title">¿Quieres hecharte unas risas?</h1>
       </div>
       <div className="content-container">
-        <p className="sub-text">Si te sientes agobiada, haz clic en este botón:</p>
+        <p className="sub-text">Haz clic en este botón:</p>
         <Link to="/jokes" className="button">Click para un chiste</Link>
       </div>
     </div>
